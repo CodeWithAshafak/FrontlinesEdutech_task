@@ -1,0 +1,25 @@
+# Companies API Development
+
+A comprehensive Companies API built with Node.js, Express, MongoDB, and React. This application provides a RESTful API for managing company data with advanced filtering, searching, and pagination capabilities, along with a modern React frontend.
+
+## Features :- 
+
+### Backend (Node.js + Express + MongoDB)
+- **RESTful API** with full CRUD operations for companies
+- **Advanced Filtering** by industry, size, location, revenue, founded year, and more
+- **Text Search** across company names, descriptions, and tags
+- **Pagination** with configurable page sizes
+- **Sorting** by multiple fields (name, industry, founded year, etc.)
+- **Data Validation** with comprehensive error handling
+- **Database Indexing** for optimal search performance
+- **Sample Data Seeding** for development and testing
+
+### Frontend (React.js)
+- **Modern UI** built with React and Tailwind CSS
+- **Dual View Modes** - Card view and Table view
+- **Advanced Filter Controls** with dropdowns and search inputs
+- **Real-time Search** with debounced input
+- **Responsive Design** that works on all devices
+- **Pagination** with intuitive navigation
+- **Loading States** and error handling
+- **Interactive Sorting** by clicking column headers
