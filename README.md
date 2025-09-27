@@ -23,3 +23,16 @@ A comprehensive Companies API built with Node.js, Express, MongoDB, and React. T
 - **Pagination** with intuitive navigation
 - **Loading States** and error handling
 - **Interactive Sorting** by clicking column headers
+
+
+_**Configuration**
+Environment Variables
+Create a .env file in your backend folder and add:
+
+PORT=8000
+
+# Local MongoDB connection
+DB_URL=mongodb://localhost:27017/frotlines
+
+# MongoDB Atlas connection
+DB_URL=mongodbatls_connection_string
