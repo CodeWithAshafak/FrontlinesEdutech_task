@@ -7,7 +7,9 @@ import FilterControls from './components/FilterControls';
 import Pagination from './components/Pagination';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+
+import { API_BASE_URL } from './Config';
+
 
 function App() {
   const [companies, setCompanies] = useState([]);
